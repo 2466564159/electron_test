@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
   },
   "keywords": [],
   "author": "zhu2466564159 <2466564159@qq.com>",
@@ -20,6 +21,7 @@
     "@electron-forge/maker-squirrel": "^7.1.0",
     "@electron-forge/maker-zip": "^7.1.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.1.0",
+    "@electron-forge/publisher-github": "^7.1.0",
     "electron": "^27.1.0"
   },
   "dependencies": {

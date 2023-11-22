@@ -1,3 +1,4 @@
+// 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
 module.exports = {
   packagerConfig: {
     asar: true,
@@ -27,4 +28,17 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: '2466564159',
+          name: 'electron_test'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ]
 };

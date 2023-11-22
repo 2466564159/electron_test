@@ -1,6 +1,8 @@
 const path = require('node:path')
 const { app, BrowserWindow, ipcMain } = require('electron')
 
+process.env.GITHUB_TOKEN = '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'
+
 const createWindow = () => {
     const win = new BrowserWindow({
         width: 800,
